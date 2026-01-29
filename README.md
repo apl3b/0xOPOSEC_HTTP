@@ -30,7 +30,7 @@ A lightweight, high-performance HTTP server written in C for Windows.
   > [!IMPORTANT]  
   > You must have Visual C++ runtime libraries installed to be able to run this executable!
   ```
-    $url86 = "https://aka.ms/vs/17/release/vc_redist.x86.exe"
+$url86 = "https://aka.ms/vs/17/release/vc_redist.x86.exe"
 $output86 = "$env:TEMP\vc_redist_x86.exe"
 
 Invoke-WebRequest -Uri $url86 -OutFile $output86
