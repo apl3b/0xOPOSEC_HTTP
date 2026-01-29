@@ -1,4 +1,4 @@
-# 0xOposec_HTTP
+# 0xOPOSEC_HTTP
 
 ![C](https://img.shields.io/badge/language-C-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6.svg)
@@ -9,7 +9,7 @@ A lightweight, high-performance HTTP server written in C for Windows.
 
 ## 📖 About
 
-**0xOposec_HTTP** is a minimalistic HTTP server implementation built with performance as a priority. Developed in C using the Windows Sockets (Winsock2) API, it delivers blazing-fast performance while maintaining an incredibly small footprint. It's the perfect solution for serving static content, acting as a backend for small-scale applications, or for educational purposes in understanding network programming.
+**0xOPOSEC_HTTP** is a minimalistic HTTP server implementation built with performance as a priority. Developed in C using the Windows Sockets (Winsock2) API, it delivers blazing-fast performance while maintaining an incredibly small footprint. It's the perfect solution for serving static content, acting as a backend for small-scale applications, or for educational purposes in understanding network programming.
 
 ## ✨ Features
 
@@ -83,5 +83,5 @@ Contributions are welcome! If you have ideas for new features, improvements, or 
 <p align="center">
   Built with ❤️ using C and Winsock2 | Open Source Software
   <br>
-  &#169; 2026 0xOposec_HTTP Project
+  &#169; 2026 0xOPOSEC_HTTP Project
 </p>
