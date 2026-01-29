@@ -25,6 +25,20 @@ A lightweight, high-performance HTTP server written in C for Windows.
 ### Prerequisites
 
 -   Windows operating system.
+-   Visual C++ Redistributable
+
+  > [!IMPORTANT]  
+  > You must have Visual C++ runtime libraries installed to be able to run this executable!
+  ```
+    $url86 = "https://aka.ms/vs/17/release/vc_redist.x86.exe"
+$output86 = "$env:TEMP\vc_redist_x86.exe"
+
+Invoke-WebRequest -Uri $url86 -OutFile $output86
+Start-Process -FilePath $output86 -ArgumentList "/install", "/quiet", "/norestart" -Wait
+Remove-Item $output86
+Write-Host "x86 version installed!" -ForegroundColor Green
+
+```
 
 ### Running the Server
 
